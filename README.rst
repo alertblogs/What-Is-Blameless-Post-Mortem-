@@ -1,40 +1,35 @@
-AlertOps Expert Guidance
+What Is Blameless Post-Mortem?
 ========
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+ Let’s face it – most software engineers are familiar with failure. The software engineering cycle is rarely flawless, and problems may crop up that seemingly happen for no reason.
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+So, what what happens if one of your software engineers makes a mistake? In some instances, an organization plays the “blame game,” yet doing so may prove to be costly and time-intensive. Worst of all, this approach is unlikely to lead to fast, efficient problem resolution.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+On the other hand, there is the “post-mortem” approach to software engineering issues. This approach is spearheaded by Google and other industry-leading brands, and for good reason.
 
-Automate Processes
-====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+A post-mortem emphasizes collaboration and learning above all else. When something goes wrong, a post-mortem requires an in-depth analysis of software engineering processes over people. Additionally, participants use it as a learning experience and share information to prevent the same mistake from happening again.
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+Establish a Blameless Post-Mortem Process
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+No one is perfect, and as humans, we all make mistakes from time to time. Thus, post-mortems can be blameless.
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+Want blameless post-mortems across your software engineering team? If a mistake happens, enable software engineers to provide details about the issue, including:
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+    Any actions they took that lead to the issue
+    The impact of their actions
+    Their expectations
+    Their assumptions
+    Timeline of events behind a mistake
 
-1 Red Canary 2021 Threat Detection Report
+Perhaps most important, empower software engineers to provide this information without fear of punishment or retribution. Otherwise, you are assigning blame that ultimately hinders collaboration and learning.
+
+Implementing blameless post-mortems sometimes is difficult, but technologies and tools are available to help. For instance, alert tracking software with customer-defined alert templates allows users to create workflows based on customer-designed fields. That way, users can provide rich data post-mortem.
+
+Want to learn more about blameless post-mortems? Check out Ken Norton’s article: Blameless Post Mortem, How do You Respond When Things Go Wrong?
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/blameless-post-mortems/
 
 Read more:
 ====
